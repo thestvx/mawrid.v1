@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+
+<html dir="rtl" lang="ar"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Mawrid - Browse Categories</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Ibm+Plex+Sans:wght@400;500;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">tailwind.config = {darkMode: "class", theme: {extend: {colors: {"primary-fixed": "#ffdbcd", "on-primary-container": "#541b00", "outline-variant": "#e3bfb1", "tertiary-fixed": "#e1e0ff", "primary-fixed-dim": "#ffb597", "on-tertiary-fixed-variant": "#2f2ebe", "surface-container-high": "#e7e8e9", "on-error-container": "#93000a", "on-surface": "#191c1d", "surface-container-highest": "#e1e3e4", "inverse-primary": "#ffb597", "surface-variant": "#e1e3e4", background: "#f8f9fa", "on-secondary-container": "#636262", "tertiary-fixed-dim": "#c0c1ff", "on-primary-fixed-variant": "#7e2c00", "on-primary-fixed": "#360f00", error: "#ba1a1a", surface: "#f8f9fa", "secondary-fixed-dim": "#c8c6c5", "secondary-fixed": "#e5e2e1", "on-primary": "#ffffff", "tertiary-container": "#8589ff", primary: "#a53c00", outline: "#8f7065", "on-secondary": "#ffffff", "surface-container": "#edeeef", "surface-container-low": "#f3f4f5", "inverse-on-surface": "#f0f1f2", tertiary: "#494bd6", "secondary-container": "#e2dfde", "on-tertiary-fixed": "#07006c", "primary-container": "#ff6201", "on-tertiary": "#ffffff", "surface-dim": "#d9dadb", secondary: "#5f5e5e", "surface-container-lowest": "#ffffff", "on-surface-variant": "#5a4137", "on-secondary-fixed": "#1c1b1b", "surface-bright": "#f8f9fa", "inverse-surface": "#2e3132", "on-tertiary-container": "#0f00a2", "on-error": "#ffffff", "on-secondary-fixed-variant": "#474746", "surface-tint": "#a53c00", "error-container": "#ffdad6", "on-background": "#191c1d"}, borderRadius: {DEFAULT: "0.25rem", lg: "0.5rem", xl: "0.75rem", full: "9999px"}, spacing: {"margin-desktop": "48px", "card-padding": "24px", unit: "8px", "section-gap": "64px", "margin-mobile": "20px", "container-max": "1440px", gutter: "24px"}, fontFamily: {"headline-md": ["IBM Plex Sans Arabic"], "headline-lg": ["IBM Plex Sans Arabic"], "label-sm": ["IBM Plex Sans Arabic"], "body-lg": ["IBM Plex Sans Arabic"], "display-lg": ["IBM Plex Sans Arabic"], "body-md": ["IBM Plex Sans Arabic"], "label-md": ["IBM Plex Sans Arabic"], "title-lg": ["IBM Plex Sans Arabic"], "headline-lg-mobile": ["IBM Plex Sans Arabic"], headline: ["Ibm Plex Sans"], display: ["Ibm Plex Sans"], body: ["Ibm Plex Sans"], label: ["Ibm Plex Sans"]}, fontSize: {"headline-md": ["24px", {lineHeight: "1.4", fontWeight: "600"}], "headline-lg": ["32px", {lineHeight: "1.3", fontWeight: "600"}], "label-sm": ["12px", {lineHeight: "1.2", fontWeight: "600"}], "body-lg": ["18px", {lineHeight: "1.6", fontWeight: "400"}], "display-lg": ["48px", {lineHeight: "1.2", letterSpacing: "-0.02em", fontWeight: "700"}], "body-md": ["16px", {lineHeight: "1.6", fontWeight: "400"}], "label-md": ["14px", {lineHeight: "1.2", letterSpacing: "0.01em", fontWeight: "500"}], "title-lg": ["20px", {lineHeight: "1.5", fontWeight: "500"}], "headline-lg-mobile": ["24px", {lineHeight: "1.3", fontWeight: "600"}]}}}};</script>
+<style>
+        body { font-family: 'IBM Plex Sans Arabic', sans-serif; }
+        .material-symbols-outlined { font-family: 'Material Symbols Outlined'; font-weight: normal; font-style: normal; font-size: 24px; line-height: 1; letter-spacing: normal; text-transform: none; display: inline-block; white-space: nowrap; word-wrap: normal; direction: ltr; -webkit-font-feature-settings: 'liga'; -webkit-font-smoothing: antialiased; }
+        .soft-shadow { box-shadow: 0px 4px 20px rgba(0,0,0,0.04); }
+        .soft-shadow-hover:hover { box-shadow: 0px 12px 32px rgba(0,0,0,0.08); transform: translateY(-2px); }
+        .transition-all-200 { transition: all 0.2s ease-in-out; }
+      </style>
+</head>
+<body class="bg-background text-on-surface antialiased min-h-screen flex flex-col">
+<!-- TopNavBar -->
+<header class="bg-surface shadow-sm docked full-width top-0 z-50">
+<div class="flex justify-between items-center w-full px-margin-mobile md:px-margin-desktop py-4 max-w-container-max mx-auto">
+<div class="flex items-center gap-6">
+<a class="font-headline-md text-headline-md font-bold text-on-surface flex items-center gap-2" href="#">
+<img alt="Mawrid Logo" class="h-10 w-auto object-contain" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAzikeVv50DbO09CltMr73j-1CEjMNqWDf_tq_Eun0M2oGzfYtGgjBLbErANGuB6itlh-N6Qqm_J0gYBE2TE02WacC7Rple4_4TtxwGY6q_AQ6QKjAaRKGmY1aCSy-_EwWC7roTiiL0tUyfpRYDY2tMX4cOG7Sb8uxYGVgoquQRYSg2QokY6kxss9ZnSViYwgL4prtMHhsNvOPPngTEUMVQSjB-Vvf-hRqrD20J_N5euRNrTV57MGMyoF_I9fgfMLk"/>
+                    Mawrid
+                </a>
+</div>
+<nav class="hidden md:flex items-center gap-8">
+<a class="font-body-md text-body-md text-secondary hover:text-primary transition-colors duration-200" href="#">Software</a>
+<a class="font-body-md text-body-md text-secondary hover:text-primary transition-colors duration-200" href="#">Design</a>
+<a class="font-body-md text-body-md text-secondary hover:text-primary transition-colors duration-200" href="#">Marketing</a>
+<a class="font-body-md text-body-md text-secondary hover:text-primary transition-colors duration-200" href="#">Assets</a>
+<a class="font-body-md text-body-md text-secondary hover:text-primary transition-colors duration-200" href="#">Tutorials</a>
+</nav>
+<div class="flex items-center gap-4">
+<div class="relative hidden md:block">
+<span class="material-symbols-outlined absolute right-3 top-1/2 -translate-y-1/2 text-secondary">search</span>
+<input class="bg-surface-container-low border-none rounded-full py-2 pr-10 pl-4 w-64 focus:ring-2 focus:ring-primary-container text-body-md font-body-md placeholder:text-secondary" placeholder="البحث عن منتجات..." type="text"/>
+</div>
+<button class="text-secondary hover:text-primary transition-colors duration-200 hover:bg-surface-container-low p-2 rounded-full hidden md:block">
+<span class="material-symbols-outlined">shopping_cart</span>
+</button>
+<a class="hidden md:inline-block font-label-md text-label-md text-secondary hover:text-primary transition-colors" href="#">Sign In</a>
+<button class="bg-primary-container text-on-primary-container font-label-md text-label-md px-6 py-2 rounded-full hover:shadow-md transition-all-200 scale-95 active:opacity-80">Open Shop</button>
+</div>
+</div>
+</header>
+<div class="flex-1 flex max-w-container-max mx-auto w-full px-margin-mobile md:px-margin-desktop py-8 gap-gutter">
+<!-- SideNavBar -->
+<aside class="hidden lg:flex flex-col gap-unit p-card-padding h-screen sticky top-0 bg-surface-container-low rounded-xl w-64 flex-shrink-0">
+<div class="mb-6 flex flex-col gap-2">
+<h2 class="font-title-lg text-title-lg font-semibold text-on-surface">Filters</h2>
+<p class="font-label-sm text-label-sm text-secondary">Refine your search</p>
+</div>
+<nav class="flex flex-col gap-2 mb-8">
+<a class="flex items-center gap-3 px-4 py-3 bg-primary-container text-on-primary-container rounded-lg font-bold hover:translate-x-1 transition-transform duration-200 click:scale-98" href="#">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">category</span>
+<span class="font-label-md text-label-md">All Categories</span>
+</a>
+<a class="flex items-center gap-3 px-4 py-3 text-on-surface-variant hover:bg-surface-container-high rounded-lg hover:translate-x-1 transition-transform duration-200 click:scale-98" href="#">
+<span class="material-symbols-outlined">payments</span>
+<span class="font-label-md text-label-md">Price Range</span>
+</a>
+<a class="flex items-center gap-3 px-4 py-3 text-on-surface-variant hover:bg-surface-container-high rounded-lg hover:translate-x-1 transition-transform duration-200 click:scale-98" href="#">
+<span class="material-symbols-outlined">grade</span>
+<span class="font-label-md text-label-md">Ratings</span>
+</a>
+<a class="flex items-center gap-3 px-4 py-3 text-on-surface-variant hover:bg-surface-container-high rounded-lg hover:translate-x-1 transition-transform duration-200 click:scale-98" href="#">
+<span class="material-symbols-outlined">terminal</span>
+<span class="font-label-md text-label-md">Software Type</span>
+</a>
+<a class="flex items-center gap-3 px-4 py-3 text-on-surface-variant hover:bg-surface-container-high rounded-lg hover:translate-x-1 transition-transform duration-200 click:scale-98" href="#">
+<span class="material-symbols-outlined">description</span>
+<span class="font-label-md text-label-md">File Formats</span>
+</a>
+</nav>
+<button class="mt-auto bg-surface border border-outline-variant text-on-surface font-label-md text-label-md py-2 rounded-lg hover:bg-surface-container-high transition-colors">
+                Apply Filters
+            </button>
+</aside>
+<!-- Main Content -->
+<main class="flex-1 flex flex-col gap-8">
+<!-- Horizontal Categories / Chips -->
+<div class="flex gap-3 overflow-x-auto pb-4 no-scrollbar">
+<button class="whitespace-nowrap px-6 py-2 rounded-full bg-primary-container text-on-primary-container font-label-md text-label-md transition-colors">Sport</button>
+<button class="whitespace-nowrap px-6 py-2 rounded-full bg-surface-container-low text-on-surface font-label-md text-label-md hover:bg-surface-container-high transition-colors">Music</button>
+<button class="whitespace-nowrap px-6 py-2 rounded-full bg-surface-container-low text-on-surface font-label-md text-label-md hover:bg-surface-container-high transition-colors">Gaming</button>
+<button class="whitespace-nowrap px-6 py-2 rounded-full bg-surface-container-low text-on-surface font-label-md text-label-md hover:bg-surface-container-high transition-colors">Fashion</button>
+<button class="whitespace-nowrap px-6 py-2 rounded-full bg-surface-container-low text-on-surface font-label-md text-label-md hover:bg-surface-container-high transition-colors">Art</button>
+<button class="whitespace-nowrap px-6 py-2 rounded-full bg-surface-container-low text-on-surface font-label-md text-label-md hover:bg-surface-container-high transition-colors">Crypto</button>
+</div>
+<!-- Product Grid -->
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+<!-- Product Card 1 -->
+<article class="bg-surface rounded-2xl p-4 soft-shadow soft-shadow-hover transition-all-200 flex flex-col group relative">
+<button class="absolute top-6 left-6 z-10 w-8 h-8 bg-surface/80 backdrop-blur rounded-full flex items-center justify-center text-secondary hover:text-primary transition-colors">
+<span class="material-symbols-outlined text-[20px]">favorite</span>
+</button>
+<div class="aspect-square bg-surface-container-low rounded-xl mb-4 overflow-hidden relative flex items-center justify-center p-6">
+<img class="w-full h-full object-contain mix-blend-multiply transition-transform duration-500 group-hover:scale-105" data-alt="A high-quality 3D render of a modern smart watch with a white band, floating against a clean, light gray background in a well-lit studio setting. The lighting is soft and even, highlighting the sleek curves of the device. The mood is premium and tech-focused." src="https://lh3.googleusercontent.com/aida-public/AB6AXuA3sWM52Mlc3kc_4i75kk54V1uDg3vwBblQEiOVUjqU2Zp-HZocLdkLgCUGMUvjs408YdukExJ1iyP_4ZyrznyvdYDJ1tWDKN4mSrssyln4kmko7yej96cDdoWY-JrN6ZnWRaBQJE_4TxyAS8dX6jxsVpNSCI_pxdXYiO49rJ9G58XqVmvoxveRCqIZ3ubqUtJzQInFFvf0-cOzimjYf_7t9iBJmJH09lEp2LPSbxoODrqSRRHfTA"/>
+</div>
+<div class="flex flex-col flex-1">
+<div class="flex items-center gap-2 mb-2">
+<span class="bg-surface-container-highest px-2 py-1 rounded text-[10px] font-bold text-on-surface">Top Item</span>
+<div class="flex items-center text-primary-container text-xs">
+<span class="material-symbols-outlined text-[14px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="font-bold ml-1">4.8</span>
+</div>
+</div>
+<h3 class="font-title-lg text-title-lg text-on-surface mb-1 line-clamp-2">Smart Watch WH22-6 Fitness Tracker</h3>
+<p class="font-label-sm text-label-sm text-secondary mb-4">By TechGear Co.</p>
+<div class="mt-auto flex items-center justify-between">
+<span class="font-headline-md text-headline-md text-primary font-bold">454.00 SAR</span>
+<button class="w-10 h-10 rounded-full border border-outline-variant flex items-center justify-center text-on-surface hover:bg-primary-container hover:text-on-primary-container hover:border-primary-container transition-colors">
+<span class="material-symbols-outlined text-[20px]">shopping_bag</span>
+</button>
+</div>
+</div>
+</article>
+<!-- Product Card 2 -->
+<article class="bg-surface rounded-2xl p-4 soft-shadow soft-shadow-hover transition-all-200 flex flex-col group relative">
+<button class="absolute top-6 left-6 z-10 w-8 h-8 bg-surface/80 backdrop-blur rounded-full flex items-center justify-center text-secondary hover:text-primary transition-colors">
+<span class="material-symbols-outlined text-[20px]">favorite</span>
+</button>
+<div class="aspect-square bg-surface-container-low rounded-xl mb-4 overflow-hidden relative flex items-center justify-center p-6">
+<img class="w-full h-full object-contain mix-blend-multiply transition-transform duration-500 group-hover:scale-105" data-alt="A pair of professional tennis rackets crossed over each other with a single yellow tennis ball suspended above them. The background is a pristine, light gray studio environment. The lighting is bright and crisp, creating a clean, modern aesthetic suitable for a premium sporting goods marketplace." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDl9xUPxX4490lVrD0BHMwWtqu-ugDMGf5mCpv8HA_tGRbLqNESatU804LfcdDSpBkTXVNl5-it5VmZbMFrcrpnmIawe_gv0sHh3cEmFonNqB3I65qI5zyXf329dpM8zRFtUElE0ii4cQn3bXM06uu_fGK8tiav94jHssZ-jIv-_sH7KdrcVX1MVwL1rrKa49OdPF0xYxOXVD45EnsfvKY5dKtfHYX8Wr8oWFPkeLIslcQ9QODC8A"/>
+</div>
+<div class="flex flex-col flex-1">
+<div class="flex items-center gap-2 mb-2">
+<div class="flex items-center text-primary-container text-xs">
+<span class="material-symbols-outlined text-[14px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="font-bold ml-1">4.5</span>
+</div>
+</div>
+<h3 class="font-title-lg text-title-lg text-on-surface mb-1 line-clamp-2">Tennis Rackets for Beginners</h3>
+<p class="font-label-sm text-label-sm text-secondary mb-4">By CourtKing</p>
+<div class="mt-auto flex items-center justify-between">
+<span class="font-headline-md text-headline-md text-primary font-bold">130.99 SAR</span>
+<button class="w-10 h-10 rounded-full border border-outline-variant flex items-center justify-center text-on-surface hover:bg-primary-container hover:text-on-primary-container hover:border-primary-container transition-colors">
+<span class="material-symbols-outlined text-[20px]">shopping_bag</span>
+</button>
+</div>
+</div>
+</article>
+<!-- Product Card 3 -->
+<article class="bg-surface rounded-2xl p-4 soft-shadow soft-shadow-hover transition-all-200 flex flex-col group relative">
+<button class="absolute top-6 left-6 z-10 w-8 h-8 bg-surface/80 backdrop-blur rounded-full flex items-center justify-center text-primary transition-colors">
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">favorite</span>
+</button>
+<div class="aspect-square bg-surface-container-low rounded-xl mb-4 overflow-hidden relative flex items-center justify-center p-6">
+<img class="w-full h-full object-contain mix-blend-multiply transition-transform duration-500 group-hover:scale-105" data-alt="A pair of pristine white premium boxing gloves resting on a light surface against a soft white background. The studio lighting highlights the smooth texture of the leather and the solid construction. The overall mood is energetic yet refined, fitting a high-end sports catalog." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBV8BVgQYRJbleXkhrjnHGOicfasIArrbK8ROvs82UNtXNirRbV6wcKHrj1qeVFb3Ncyn5c7RVDZSbVI9twypJUgkN3qKhhuz5n65laLm3rYY0yLMyykzJgG9U77Wpq2xnw6k2I5Lq_ymXHaIOeVtTmmjEDhjeWHpHm5VPNWllWSQM6K1jG9hwC35gJ2-5FhLgeyrKv5ZINuzIobTW_MdA7qvMVDf5vytvCG16_3sMCy4KpfN185A"/>
+</div>
+<div class="flex flex-col flex-1">
+<div class="flex items-center gap-2 mb-2">
+<div class="flex items-center text-primary-container text-xs">
+<span class="material-symbols-outlined text-[14px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="font-bold ml-1">4.9</span>
+</div>
+</div>
+<h3 class="font-title-lg text-title-lg text-on-surface mb-1 line-clamp-2">Premium Boxing Gloves - Pro Series</h3>
+<p class="font-label-sm text-label-sm text-secondary mb-4">By StrikeForce</p>
+<div class="mt-auto flex items-center justify-between">
+<div class="flex items-baseline gap-2">
+<span class="font-headline-md text-headline-md text-primary font-bold">196.84 SAR</span>
+<span class="font-label-sm text-label-sm text-secondary line-through">275.57</span>
+</div>
+<button class="w-10 h-10 rounded-full border border-outline-variant flex items-center justify-center text-on-surface hover:bg-primary-container hover:text-on-primary-container hover:border-primary-container transition-colors">
+<span class="material-symbols-outlined text-[20px]">shopping_bag</span>
+</button>
+</div>
+</div>
+</article>
+<!-- Product Card 4 - Featured/Different Layout -->
+<article class="bg-tertiary rounded-2xl p-6 soft-shadow soft-shadow-hover transition-all-200 flex flex-col group relative col-span-1 sm:col-span-2 lg:col-span-1 overflow-hidden">
+<button class="absolute top-6 left-6 z-10 w-8 h-8 bg-surface/20 backdrop-blur rounded-full flex items-center justify-center text-on-tertiary hover:bg-surface/40 transition-colors">
+<span class="material-symbols-outlined text-[20px]">favorite</span>
+</button>
+<div class="absolute inset-0 z-0 opacity-80 mix-blend-overlay">
+<img class="w-full h-full object-cover" data-alt="A dynamic action shot of an athlete wearing a white Nike training hoodie, standing against a vibrant deep purple studio background. The lighting is dramatic and colorful, creating a high-energy, premium fashion aesthetic. Small graphic UI overlays hover around the athlete." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDsKeq4zNgjQGakoA_3asZ1al1c_oLpbi3AeozzXNjIruinYt58pV5fn5CNTGi2x6r1uLOzExeUksEHiqvqzMDKorp_T7f3pKTjqopADfKNs4ViVe6uf7fpOQ5atXJCSPsiSfWKn6VM2Znh8kyny0w41hexAgNz2kycC-YGYBjmujK4N6qGFZ6_asO4tmIonBHPZgI9hztjh07VKgaNAZmW6Hy2Mc3Q-GgQ3qkp5Qnf6CNRU_QQ1A"/>
+</div>
+<div class="relative z-10 flex flex-col h-full justify-between">
+<div class="flex flex-col gap-2 items-start">
+<div class="bg-surface/20 backdrop-blur px-3 py-1 rounded-full flex items-center gap-1 text-on-tertiary">
+<span class="font-bold text-sm">4.7/5</span>
+<span class="material-symbols-outlined text-[14px]" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+</div>
+<div class="mt-32">
+<h3 class="font-headline-md text-headline-md text-on-tertiary mb-2 font-bold leading-tight">Nike White Therma-Fit Pullover Training Hoodie</h3>
+<div class="flex items-center gap-4 mt-4">
+<span class="font-display-lg text-headline-lg text-on-tertiary font-bold">154.99 SAR</span>
+</div>
+</div>
+</div>
+</article>
+<!-- Product Card 5 -->
+<article class="bg-surface rounded-2xl p-4 soft-shadow soft-shadow-hover transition-all-200 flex flex-col group relative">
+<button class="absolute top-6 left-6 z-10 w-8 h-8 bg-surface/80 backdrop-blur rounded-full flex items-center justify-center text-secondary hover:text-primary transition-colors">
+<span class="material-symbols-outlined text-[20px]">favorite</span>
+</button>
+<div class="aspect-square bg-surface-container-low rounded-xl mb-4 overflow-hidden relative flex items-center justify-center p-6">
+<img class="w-full h-full object-contain mix-blend-multiply transition-transform duration-500 group-hover:scale-105" data-alt="A modern, high-tech recurve bow with arrows, displayed horizontally against a clean, light gray background. The sleek black carbon fiber texture of the bow contrasts with the soft studio lighting, creating a premium, professional sporting goods presentation." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBtRYa-mbqd58LB5qngN8AIZJV4zcZ8W2cQOKvkeyXh0gpPEP8niDQfigj7mlI9JgZB4--GfOMPGzoGQECIkvE3y4l01rbTQb7APh76ZmUftTCvwnz-vZuQ-a48OakDtI9zeoz9Uiyqb3DcTaKuET7rG6lcOzIN0mMTgojqBGimhpfKKwsTtHGyZy5XZH44y2f0J6xdOy9vgG8vU3JP2QMoEULRPIJvgtipVXo487X4h3w1kr1yPA"/>
+</div>
+<div class="flex flex-col flex-1">
+<h3 class="font-title-lg text-title-lg text-on-surface mb-1 line-clamp-2">Club Kit 1 Recurve Archery Set</h3>
+<p class="font-label-sm text-label-sm text-secondary mb-4">By PrecisionAim</p>
+<div class="mt-auto flex items-center justify-between">
+<span class="font-headline-md text-headline-md text-primary font-bold">48.99 SAR</span>
+<button class="w-10 h-10 rounded-full border border-outline-variant flex items-center justify-center text-on-surface hover:bg-primary-container hover:text-on-primary-container hover:border-primary-container transition-colors">
+<span class="material-symbols-outlined text-[20px]">shopping_bag</span>
+</button>
+</div>
+</div>
+</article>
+<!-- Product Card 6 -->
+<article class="bg-surface rounded-2xl p-4 soft-shadow soft-shadow-hover transition-all-200 flex flex-col group relative">
+<button class="absolute top-6 left-6 z-10 w-8 h-8 bg-surface/80 backdrop-blur rounded-full flex items-center justify-center text-secondary hover:text-primary transition-colors">
+<span class="material-symbols-outlined text-[20px]">favorite</span>
+</button>
+<div class="aspect-square bg-surface-container-low rounded-xl mb-4 overflow-hidden relative flex items-center justify-center p-6">
+<img class="w-full h-full object-contain mix-blend-multiply transition-transform duration-500 group-hover:scale-105" data-alt="A pair of clean, white Nike running shoes viewed from a slightly elevated angle against a soft, light gray background. The studio lighting emphasizes the design details and texture of the mesh upper and chunky sole. The vibe is fresh, modern, and ready for action." src="https://lh3.googleusercontent.com/aida-public/AB6AXuATuZuSbtDRohLC7XKaR2R0WfODSxXmxVk_Bih_FESCyxcmyi97iDvZhIGoEFFqe_lSBhwLOe1ikQrDINFL_dfg7sSRDfoopk0b4TviwR8b-Seq6ONEypDC6kD-FcFR96FCw8_l-u_lKFLmCg3bZ_f1bRBrqzuhTR8605miHFkFwEt8aKLSNgH-I56srk_p9948rSIDVVnwZPF4p28mx6ZppTAMWbHmUhclok45oe1mYcY10wSgIg"/>
+</div>
+<div class="flex flex-col flex-1">
+<div class="flex items-center gap-2 mb-2">
+<span class="bg-surface-container-highest px-2 py-1 rounded text-[10px] font-bold text-on-surface">Top Item</span>
+</div>
+<h3 class="font-title-lg text-title-lg text-on-surface mb-1 line-clamp-2">Lightweight White Nike Trainers</h3>
+<p class="font-label-sm text-label-sm text-secondary mb-4">By Nike Official</p>
+<div class="mt-auto flex items-center justify-between">
+<span class="font-headline-md text-headline-md text-primary font-bold">210.00 SAR</span>
+<button class="w-10 h-10 rounded-full border border-outline-variant flex items-center justify-center text-on-surface hover:bg-primary-container hover:text-on-primary-container hover:border-primary-container transition-colors">
+<span class="material-symbols-outlined text-[20px]">shopping_bag</span>
+</button>
+</div>
+</div>
+</article>
+</div>
+<!-- Pagination -->
+<div class="flex justify-center mt-8 gap-2">
+<button class="w-10 h-10 rounded-lg bg-surface border border-outline-variant flex items-center justify-center text-on-surface hover:bg-surface-container-high transition-colors">
+<span class="material-symbols-outlined">chevron_right</span>
+</button>
+<button class="w-10 h-10 rounded-lg bg-primary-container text-on-primary-container font-bold flex items-center justify-center">1</button>
+<button class="w-10 h-10 rounded-lg bg-surface border border-outline-variant flex items-center justify-center text-on-surface hover:bg-surface-container-high transition-colors">2</button>
+<button class="w-10 h-10 rounded-lg bg-surface border border-outline-variant flex items-center justify-center text-on-surface hover:bg-surface-container-high transition-colors">3</button>
+<span class="w-10 h-10 flex items-center justify-center text-secondary">...</span>
+<button class="w-10 h-10 rounded-lg bg-surface border border-outline-variant flex items-center justify-center text-on-surface hover:bg-surface-container-high transition-colors">
+<span class="material-symbols-outlined">chevron_left</span>
+</button>
+</div>
+</main>
+</div>
+<!-- Footer -->
+<footer class="bg-surface-container-highest w-full py-section-gap px-margin-mobile md:px-margin-desktop flex flex-col md:flex-row justify-between items-center gap-gutter border-t border-outline-variant mt-auto">
+<div class="font-headline-md text-headline-md text-primary">Mawrid</div>
+<p class="font-label-sm text-label-sm text-on-secondary-fixed-variant">© 2024 Mawrid Premium Marketplace. All rights reserved.</p>
+<div class="flex gap-4">
+<a class="font-label-sm text-label-sm text-on-secondary-fixed-variant hover:text-primary transition-colors" href="#">Privacy Policy</a>
+<a class="font-label-sm text-label-sm text-on-secondary-fixed-variant hover:text-primary transition-colors" href="#">Terms of Service</a>
+<a class="font-label-sm text-label-sm text-on-secondary-fixed-variant hover:text-primary transition-colors" href="#">Refund Policy</a>
+<a class="font-label-sm text-label-sm text-on-secondary-fixed-variant hover:text-primary transition-colors" href="#">Contact Us</a>
+</div>
+</footer>
+</body></html>

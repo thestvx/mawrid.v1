@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+
+<html dir="rtl" lang="ar"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Mawrid - تفاصيل المنتج</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Ibm+Plex+Sans:wght@400;500;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">tailwind.config = {darkMode: "class", theme: {extend: {colors: {"primary-fixed": "#ffdbcd", "on-primary-container": "#541b00", "outline-variant": "#e3bfb1", "tertiary-fixed": "#e1e0ff", "primary-fixed-dim": "#ffb597", "on-tertiary-fixed-variant": "#2f2ebe", "surface-container-high": "#e7e8e9", "on-error-container": "#93000a", "on-surface": "#191c1d", "surface-container-highest": "#e1e3e4", "inverse-primary": "#ffb597", "surface-variant": "#e1e3e4", background: "#f8f9fa", "on-secondary-container": "#636262", "tertiary-fixed-dim": "#c0c1ff", "on-primary-fixed-variant": "#7e2c00", "on-primary-fixed": "#360f00", error: "#ba1a1a", surface: "#f8f9fa", "secondary-fixed-dim": "#c8c6c5", "secondary-fixed": "#e5e2e1", "on-primary": "#ffffff", "tertiary-container": "#8589ff", primary: "#a53c00", outline: "#8f7065", "on-secondary": "#ffffff", "surface-container": "#edeeef", "surface-container-low": "#f3f4f5", "inverse-on-surface": "#f0f1f2", tertiary: "#494bd6", "secondary-container": "#e2dfde", "on-tertiary-fixed": "#07006c", "primary-container": "#ff6201", "on-tertiary": "#ffffff", "surface-dim": "#d9dadb", secondary: "#5f5e5e", "surface-container-lowest": "#ffffff", "on-surface-variant": "#5a4137", "on-secondary-fixed": "#1c1b1b", "surface-bright": "#f8f9fa", "inverse-surface": "#2e3132", "on-tertiary-container": "#0f00a2", "on-error": "#ffffff", "on-secondary-fixed-variant": "#474746", "surface-tint": "#a53c00", "error-container": "#ffdad6", "on-background": "#191c1d"}, borderRadius: {DEFAULT: "0.25rem", lg: "0.5rem", xl: "0.75rem", full: "9999px"}, spacing: {"margin-desktop": "48px", "card-padding": "24px", unit: "8px", "section-gap": "64px", "margin-mobile": "20px", "container-max": "1440px", gutter: "24px"}, fontFamily: {"headline-md": ["IBM Plex Sans Arabic"], "headline-lg": ["IBM Plex Sans Arabic"], "label-sm": ["IBM Plex Sans Arabic"], "body-lg": ["IBM Plex Sans Arabic"], "display-lg": ["IBM Plex Sans Arabic"], "body-md": ["IBM Plex Sans Arabic"], "label-md": ["IBM Plex Sans Arabic"], "title-lg": ["IBM Plex Sans Arabic"], "headline-lg-mobile": ["IBM Plex Sans Arabic"], headline: ["Ibm Plex Sans"], display: ["Ibm Plex Sans"], body: ["Ibm Plex Sans"], label: ["Ibm Plex Sans"]}, fontSize: {"headline-md": ["24px", {lineHeight: "1.4", fontWeight: "600"}], "headline-lg": ["32px", {lineHeight: "1.3", fontWeight: "600"}], "label-sm": ["12px", {lineHeight: "1.2", fontWeight: "600"}], "body-lg": ["18px", {lineHeight: "1.6", fontWeight: "400"}], "display-lg": ["48px", {lineHeight: "1.2", letterSpacing: "-0.02em", fontWeight: "700"}], "body-md": ["16px", {lineHeight: "1.6", fontWeight: "400"}], "label-md": ["14px", {lineHeight: "1.2", letterSpacing: "0.01em", fontWeight: "500"}], "title-lg": ["20px", {lineHeight: "1.5", fontWeight: "500"}], "headline-lg-mobile": ["24px", {lineHeight: "1.3", fontWeight: "600"}]}, boxShadow: {ambient: "0px 4px 20px rgba(0,0,0,0.04)", "ambient-hover": "0px 12px 32px rgba(0,0,0,0.08)"}}}};</script>
+<style>
+        body { font-family: 'IBM Plex Sans Arabic', sans-serif; }
+    </style>
+</head>
+<body class="bg-background text-on-background min-h-screen flex flex-col">
+<!-- TopNavBar -->
+<nav class="bg-surface dark:bg-inverse-surface shadow-sm docked full-width top-0 z-50">
+<div class="flex justify-between items-center w-full px-margin-desktop py-4 max-w-container-max mx-auto">
+<!-- Brand -->
+<div class="flex items-center gap-6">
+<a class="font-headline-md text-headline-md font-bold text-on-surface dark:text-on-primary-fixed" href="#">Mawrid</a>
+<!-- Search Bar -->
+<div class="hidden md:flex items-center bg-surface-container-low rounded-full px-4 py-2 w-64 border border-transparent focus-within:border-primary transition-colors">
+<span class="material-symbols-outlined text-secondary mr-2" style="font-variation-settings: 'FILL' 0;">search</span>
+<input class="bg-transparent border-none focus:ring-0 text-body-md w-full placeholder:text-secondary" placeholder="البحث في المتجر..." type="text"/>
+</div>
+</div>
+<!-- Navigation Links -->
+<div class="hidden md:flex items-center gap-8">
+<a class="font-body-md text-body-md text-secondary dark:text-secondary-fixed-dim hover:text-primary transition-colors duration-200" href="#">Software</a>
+<a class="font-body-md text-body-md text-secondary dark:text-secondary-fixed-dim hover:text-primary transition-colors duration-200" href="#">Design</a>
+<a class="font-body-md text-body-md text-secondary dark:text-secondary-fixed-dim hover:text-primary transition-colors duration-200" href="#">Marketing</a>
+<a class="font-body-md text-body-md text-primary dark:text-primary-container border-b-2 border-primary font-bold transition-colors duration-200" href="#">Assets</a>
+<a class="font-body-md text-body-md text-secondary dark:text-secondary-fixed-dim hover:text-primary transition-colors duration-200" href="#">Tutorials</a>
+</div>
+<!-- Actions -->
+<div class="flex items-center gap-4">
+<button class="text-secondary hover:bg-surface-container-low p-2 rounded-full transition-colors duration-200 flex items-center justify-center">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 0;">shopping_cart</span>
+</button>
+<a class="hidden md:inline-flex font-label-md text-label-md text-primary bg-primary-fixed-dim hover:bg-primary-fixed px-4 py-2 rounded-lg transition-colors" href="#">Sign In</a>
+<a class="hidden md:inline-flex font-label-md text-label-md bg-primary-container text-on-primary-container hover:opacity-90 px-4 py-2 rounded-lg transition-opacity" href="#">Open Shop</a>
+<!-- User Avatar (Mock) -->
+<div class="w-8 h-8 rounded-full bg-surface-container-high overflow-hidden cursor-pointer hover:opacity-80 transition-opacity ml-2">
+<img alt="User profile" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCO168FVnRLjxxRTPNtepxsC2t9PB8IPXKhtaRos7c9SncBQ3GeStcoZMoqvWqke00ha3vXWXWDdt2IGlyti9XHLKHxdbFED8Jss8CCzYYEYRD3Qv-jPjGS3fNM3d5TM01-XhPmuixxJOpLPp4EEE6MBA2RfvHueW_KdYPpmC128kHilOO4zB64Z6q2db40Rb3n4Sk9092g8IaS5qUWz4TCIrXsm7ApG3MakMzdFbdCBNkBiA_-Iw"/>
+</div>
+</div>
+</div>
+</nav>
+<!-- Main Content Area -->
+<main class="flex-grow w-full max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop py-12">
+<!-- Breadcrumb -->
+<nav aria-label="Breadcrumb" class="flex text-label-sm text-secondary mb-8">
+<ol class="inline-flex items-center space-x-1 md:space-x-3 space-x-reverse">
+<li class="inline-flex items-center">
+<a class="hover:text-primary transition-colors" href="#">الرئيسية</a>
+</li>
+<li>
+<div class="flex items-center">
+<span class="material-symbols-outlined text-sm mx-1">chevron_left</span>
+<a class="hover:text-primary transition-colors" href="#">التصميم</a>
+</div>
+</li>
+<li>
+<div class="flex items-center">
+<span class="material-symbols-outlined text-sm mx-1">chevron_left</span>
+<a class="hover:text-primary transition-colors" href="#">أدوات</a>
+</div>
+</li>
+<li aria-current="page">
+<div class="flex items-center">
+<span class="material-symbols-outlined text-sm mx-1">chevron_left</span>
+<span class="text-on-surface">حزمة واجهة المستخدم الاحترافية</span>
+</div>
+</li>
+</ol>
+</nav>
+<!-- Product Hero Section (Bento Grid Style) -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter mb-section-gap">
+<!-- Gallery (Left side on RTL) -->
+<div class="lg:col-span-7 flex flex-col gap-4">
+<!-- Main Image -->
+<div class="bg-surface-container-lowest rounded-xl p-card-padding shadow-ambient aspect-[4/3] flex items-center justify-center overflow-hidden relative group">
+<img alt="Main Product Image" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" data-alt="A sleek, modern digital workstation setup featuring dual monitors displaying a sophisticated dashboard interface. The environment is well-lit with high-key lighting, emphasizing a clean, light-mode aesthetic. Soft shadows and a pristine white desk surface highlight the premium quality of the design assets shown on the screens." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDCNcuEIf8VKJ603f76RjWpH8rNqiaP3c__veg1xjgg88AmZroI9eA8ojGCZoVsyuUbRfnV2nV03j2J-C5p2Ju4DdUrxay16iLgphcCs7jNx26hbCVq21GCEQvz1au6z1T8nyyYbDgvrioXWeL4Zp18M919IAS-SgHcYe-e1bpMLPj48EMKFR_yEvgTBOYlJAuR3c5PUFhOcZdwqe2RCosp56P4HIpOoLQoqqmVKXEEz8Q-4OK45g"/>
+<button class="absolute top-4 right-4 bg-surface/80 backdrop-blur-sm p-2 rounded-full text-secondary hover:text-primary transition-colors shadow-sm">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 0;">favorite</span>
+</button>
+</div>
+<!-- Thumbnails -->
+<div class="grid grid-cols-4 gap-4">
+<div class="bg-surface-container-lowest rounded-lg p-2 shadow-sm aspect-square cursor-pointer border-2 border-primary overflow-hidden">
+<img alt="Thumbnail 1" class="w-full h-full object-cover rounded" data-alt="Thumbnail view of a digital dashboard interface focusing on high-contrast charts and data visualization widgets in a light mode setting." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDyTnVvQU8S0BnemF_wwxKQhFxC7BNwRssU5iJE1CU-HNu9jyuWaPa1UFTeVkR9T7HEenrNi8gTBZ1Ed8t3jWjBhyqlTalqEqh4iFQ81AwOqML-_sHT8l5uGl8gCcj7oPRtPouDk3EtUX7D0xkYxFfEM4MdbcmAD6GV0-leAuHr2wOW4TNpCQywiebO_teyjBFwD1T5ywN5uv7SrKIzzLCh8eLKXSVxVBXTf4JTTNsjJ553SYa1VA"/>
+</div>
+<div class="bg-surface-container-lowest rounded-lg p-2 shadow-sm aspect-square cursor-pointer border-2 border-transparent hover:border-outline-variant overflow-hidden opacity-70 hover:opacity-100 transition-all">
+<img alt="Thumbnail 2" class="w-full h-full object-cover rounded" data-alt="Close up of a mobile application interface design showing intricate typography and smooth, soft-UI card components." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDM3hxuNQTG25xGK03mxliFQMn2o2purtW4u3PYQ8YwkuEFtxutbR1epvpiNVnSIhbap4qzbUvcQrpYLpyRlPJBGy1I3C4zrV6tbF9LmVYw8wjhac4_Dx-2Kr-ZkfGWA3Sdbyi-Fhog5m9Hmrx7gQL_9pHCtO_92DWO8cpmZJl8lCSn81xIg-l67z8WU_kKrfxqHhvLrtLIpY3RsQ1BjMPHXnhXc7mMNGkBiroe8E0WUU6SdEbXQw"/>
+</div>
+<div class="bg-surface-container-lowest rounded-lg p-2 shadow-sm aspect-square cursor-pointer border-2 border-transparent hover:border-outline-variant overflow-hidden opacity-70 hover:opacity-100 transition-all">
+<img alt="Thumbnail 3" class="w-full h-full object-cover rounded" data-alt="A wide view of a web design layout emphasizing fluid grids and generous whitespace, embodying a premium corporate modern look." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAvqNKqkCMXHVM7vWVwFLvfTamDb91y-1Y8bgSueK1ywlCKZ3hBhJLAwmZUQR90Te7Oj1wV9E3iwwlmQsacsBenG0AEmSmWkj5rlIQ40XxvIl7Ae7-FccUM5cGv2wuKLZ-JenPWhhYH5WV1vIg3TEXiMH-YrNCxTGebmztVyEgz2TSikNuemeb2JoBHB4-5YxzlB-PlzCQFLsSpsTrwdufydPoYVkFYbmhZwH4CXDzDqzGG1UzOXA"/>
+</div>
+<div class="bg-surface-container-lowest rounded-lg p-2 shadow-sm aspect-square cursor-pointer border-2 border-transparent hover:border-outline-variant overflow-hidden opacity-70 hover:opacity-100 transition-all flex items-center justify-center relative">
+<img alt="Thumbnail 4" class="w-full h-full object-cover rounded" data-alt="Abstract collection of UI design components floating in a bright, ethereal white space with soft ambient shadows." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBA475lhFtCJDGsg_SbUje2LFBPC4R6MoyUmu2302kbo8jcA6aXmVFruyllqYwUT7QJ6AcYBB218kzhQjWvsgQBPjHSyxi8vfJbtbaIMRMcX_g-a0x83jCL41YGi28pu28KjAWHrdn0DCNMVpkyNmuN7MRLVFnNwOLkRrtNaSJm-A1dDRHplo-5IFDhKA_71q38o9JF6Zj9FciiUoRHiYWI9cSDdUMVqdnu0Zg0fXyV9Tqi-J0Lfw"/>
+<div class="absolute inset-0 bg-inverse-surface/40 flex items-center justify-center rounded">
+<span class="font-label-md text-on-primary">+3 صور</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Product Details (Right side on RTL) -->
+<div class="lg:col-span-5 flex flex-col gap-6">
+<!-- Title & Price Card -->
+<div class="bg-surface-container-lowest rounded-xl p-card-padding shadow-ambient">
+<div class="flex justify-between items-start mb-4">
+<div>
+<span class="inline-block px-3 py-1 bg-surface-container-low text-secondary rounded-full font-label-sm mb-3">حزمة واجهات</span>
+<h1 class="font-display-lg text-display-lg text-on-surface mb-2">مجموعة واجهة المستخدم المتقدمة Nitec</h1>
+</div>
+</div>
+<div class="flex items-center gap-4 mb-6">
+<div class="flex items-center text-primary-container">
+<span class="material-symbols-outlined text-lg" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-lg" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-lg" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-lg" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-lg text-surface-container-highest" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<span class="font-label-md text-secondary">4.8 (124 تقييم)</span>
+<span class="text-surface-container-highest">|</span>
+<span class="font-label-md text-secondary">تم البيع: 1,050+</span>
+</div>
+<div class="mb-8">
+<span class="font-headline-lg text-headline-lg text-on-surface">$129.00</span>
+<span class="font-body-md text-secondary line-through mr-2">$199.00</span>
+</div>
+<!-- Options -->
+<div class="mb-6">
+<h3 class="font-title-lg text-title-lg text-on-surface mb-3">نوع الترخيص</h3>
+<div class="grid grid-cols-2 gap-3">
+<label class="cursor-pointer">
+<input checked="" class="peer sr-only" name="license" type="radio"/>
+<div class="p-3 border-2 border-primary bg-primary-fixed-dim/20 rounded-lg text-center peer-checked:border-primary peer-checked:bg-primary-fixed-dim transition-all">
+<span class="block font-label-md text-on-surface mb-1">شخصي</span>
+<span class="block font-label-sm text-secondary">$129</span>
+</div>
+</label>
+<label class="cursor-pointer">
+<input class="peer sr-only" name="license" type="radio"/>
+<div class="p-3 border-2 border-surface-container-high rounded-lg text-center peer-checked:border-primary peer-checked:bg-primary-fixed-dim transition-all hover:bg-surface-container-low">
+<span class="block font-label-md text-on-surface mb-1">تجاري</span>
+<span class="block font-label-sm text-secondary">$349</span>
+</div>
+</label>
+</div>
+</div>
+<!-- Buy Action -->
+<div class="flex gap-4">
+<button class="flex-grow bg-primary-container hover:bg-primary text-on-primary font-title-lg text-title-lg py-4 rounded-lg shadow-sm hover:shadow-ambient-hover transition-all flex items-center justify-center gap-2">
+<span class="material-symbols-outlined">shopping_bag</span>
+                            شراء الآن
+                        </button>
+<button class="w-16 bg-surface-container-low hover:bg-surface-container-high text-on-surface rounded-lg flex items-center justify-center transition-colors border border-outline-variant">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 0;">favorite</span>
+</button>
+</div>
+</div>
+<!-- Vendor Info Card -->
+<div class="bg-surface-container-lowest rounded-xl p-card-padding shadow-ambient flex items-center justify-between">
+<div class="flex items-center gap-4">
+<div class="w-14 h-14 rounded-full overflow-hidden border border-surface-container-high">
+<img alt="Vendor Avatar" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDOEytsbTmPbyuMqWtHANssAElsmsP_DqLA8_-6V2iaIioyKsiQkRA1e4tpBylWWyb8NRjn0oxq5CuPWrkNVPLa5JkKHE0NTH0E2UcEdaGH2M8idkTEJRoOcXTVbsdMR09fMIflbhxhMhZT3g-kK0HfekdR7HnQmCsk5Z5y034KD4VvWy2umIsQzxiGVKXKeIcdXb2H3IMonpQd-Fb2IMVCHuZOFjJFotOdx4YbalvjXny8cUkq2Q"/>
+</div>
+<div>
+<h4 class="font-title-lg text-title-lg text-on-surface">استوديو بيكسل</h4>
+<div class="flex items-center text-sm text-secondary mt-1">
+<span class="material-symbols-outlined text-sm mr-1 text-primary-container" style="font-variation-settings: 'FILL' 1;">verified</span>
+                                بائع موثوق
+                            </div>
+</div>
+</div>
+<button class="px-4 py-2 bg-surface-container-low hover:bg-surface-container-high text-on-surface font-label-md rounded-lg transition-colors border border-outline-variant">
+                        متابعة
+                    </button>
+</div>
+<!-- Quick Specs -->
+<div class="bg-surface-container-lowest rounded-xl p-card-padding shadow-ambient">
+<h3 class="font-title-lg text-title-lg text-on-surface mb-4">المواصفات السريعة</h3>
+<ul class="space-y-3">
+<li class="flex justify-between items-center pb-2 border-b border-surface-container-high">
+<span class="text-secondary font-body-md">صيغة الملفات</span>
+<span class="font-label-md text-on-surface flex gap-2">
+<span class="bg-surface-container-low px-2 py-1 rounded">Figma</span>
+<span class="bg-surface-container-low px-2 py-1 rounded">Sketch</span>
+</span>
+</li>
+<li class="flex justify-between items-center pb-2 border-b border-surface-container-high">
+<span class="text-secondary font-body-md">حجم الملف</span>
+<span class="font-label-md text-on-surface">145 MB</span>
+</li>
+<li class="flex justify-between items-center pb-2 border-b border-surface-container-high">
+<span class="text-secondary font-body-md">تحديثات مجانية</span>
+<span class="font-label-md text-on-surface">مدى الحياة</span>
+</li>
+<li class="flex justify-between items-center">
+<span class="text-secondary font-body-md">دعم فني</span>
+<span class="font-label-md text-on-surface">6 أشهر</span>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<!-- Description & Tabs -->
+<div class="bg-surface-container-lowest rounded-xl shadow-ambient mb-section-gap">
+<div class="border-b border-surface-container-high px-card-padding flex gap-8">
+<button class="py-4 font-title-lg text-title-lg text-primary border-b-2 border-primary font-bold">الوصف</button>
+<button class="py-4 font-title-lg text-title-lg text-secondary hover:text-on-surface transition-colors">المراجعات (124)</button>
+<button class="py-4 font-title-lg text-title-lg text-secondary hover:text-on-surface transition-colors">الأسئلة الشائعة</button>
+</div>
+<div class="p-card-padding font-body-md text-on-surface-variant leading-relaxed">
+<p class="mb-4">
+                    مجموعة واجهة المستخدم Nitec هي نظام تصميم شامل ومميز تم بناؤه خصيصاً لتطبيقات الويب الحديثة ولوحات القيادة المعقدة. تتميز بتصميم "Soft-UI" نظيف يعتمد على البطاقات مع عمق خفيف ومساحات بيضاء واسعة، مما يضمن تجربة مستخدم مريحة واحترافية.
+                </p>
+<p class="mb-4">
+                    تحتوي الحزمة على أكثر من 300 مكون جاهز للاستخدام، مصممة بعناية لتتوافق مع معايير التصميم الحديثة. من الأزرار وحقول الإدخال إلى الرسوم البيانية المعقدة وجداول البيانات، كل شيء منظم بشكل مثالي داخل هيكل شبكي مرن.
+                </p>
+<h4 class="font-title-lg text-title-lg text-on-surface mt-6 mb-3">الميزات الرئيسية:</h4>
+<ul class="list-disc list-inside space-y-2 mb-6">
+<li>300+ مكون UI قابل للتخصيص بالكامل.</li>
+<li>نظام ألوان وطباعة متكامل مع متغيرات قابلة للتعديل.</li>
+<li>متوافق تماماً مع الوضع المظلم (Dark Mode).</li>
+<li>تصميم متجاوب يناسب جميع الشاشات (Mobile, Tablet, Desktop).</li>
+<li>مبني باستخدام Auto Layout V4 في Figma لسهولة التعديل.</li>
+</ul>
+</div>
+</div>
+<!-- Related Products (Grid) -->
+<div>
+<div class="flex justify-between items-center mb-6">
+<h2 class="font-headline-md text-headline-md text-on-surface font-bold">منتجات ذات صلة</h2>
+<a class="font-label-md text-primary hover:underline flex items-center gap-1" href="#">
+                    عرض الكل
+                    <span class="material-symbols-outlined text-sm">arrow_back</span>
+</a>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-gutter">
+<!-- Card 1 -->
+<div class="bg-surface-container-lowest rounded-xl shadow-ambient hover:shadow-ambient-hover transition-all duration-300 group flex flex-col h-full border border-transparent hover:border-outline-variant/30">
+<div class="aspect-[4/3] bg-surface-container-low rounded-t-xl overflow-hidden relative p-4 flex items-center justify-center">
+<img alt="Related Product" class="w-full h-full object-cover rounded-lg group-hover:scale-105 transition-transform duration-500" data-alt="A clean, minimalist UI kit presentation showing mobile app screens with sleek, rounded components on a light gray background." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAnY-enw4IIYt_uocfc5lee7hhvauNtu2SeL3rdU32LvdpMRP83LMVm5epjhl2TALhUJFGdMFRGrfYATh8Otbbmq-KJpvSTKlvkOU6WkofktzRJr4mTv9cAMOx_Jd5qwOyNfG1v1KgwRiva_UT5Dr5j6oMOCb0SdKFTdvCGsZWtL3CsuHma6GVXCnCxijEib6RDYLu0WQHKJ-EVsjtg8H-6Sh_97fxc84836EVsYBSejAP-NiDQsw"/>
+<div class="absolute top-2 left-2 bg-surface rounded-full p-1.5 shadow-sm opacity-0 group-hover:opacity-100 transition-opacity">
+<span class="material-symbols-outlined text-secondary text-sm" style="font-variation-settings: 'FILL' 0;">favorite</span>
+</div>
+</div>
+<div class="p-4 flex flex-col flex-grow">
+<div class="flex justify-between items-start mb-2">
+<h3 class="font-title-lg text-title-lg text-on-surface line-clamp-1">حزمة أيقونات Neo</h3>
+<div class="flex items-center text-primary-container text-sm">
+<span class="material-symbols-outlined text-xs mr-1" style="font-variation-settings: 'FILL' 1;">star</span>
+                                4.9
+                            </div>
+</div>
+<p class="font-body-md text-secondary text-sm mb-4 line-clamp-2 flex-grow">مجموعة من 1000+ أيقونة خطية حديثة للتطبيقات.</p>
+<div class="flex justify-between items-center mt-auto pt-4 border-t border-surface-container-high">
+<span class="font-label-md text-primary bg-primary-fixed-dim/20 px-2 py-1 rounded">$24.00</span>
+<button class="text-secondary hover:text-primary transition-colors">
+<span class="material-symbols-outlined">shopping_cart</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Card 2 -->
+<div class="bg-surface-container-lowest rounded-xl shadow-ambient hover:shadow-ambient-hover transition-all duration-300 group flex flex-col h-full border border-transparent hover:border-outline-variant/30">
+<div class="aspect-[4/3] bg-surface-container-low rounded-t-xl overflow-hidden relative p-4 flex items-center justify-center">
+<img alt="Related Product" class="w-full h-full object-cover rounded-lg group-hover:scale-105 transition-transform duration-500" data-alt="A web design template mockup displayed on a modern laptop, showing a sophisticated, data-heavy dashboard interface." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAl91hgx6anL-L6tphFGykr5RznEg5GjdBRjHUpKnMpyInnZV9UiQ2onRc40e4cv4lTemmXNHveOMazG_b6kwDCNsUqkZPwu8l9oeyAYYDGgGkDIubNsmIUDZIBGxQlonZlR6LSqiRuZ5o2C9kV4tA826qds9ISLR6gIIu-YAeioNjetH-TjHGZmVnWnpfFM1n0zM7psSz6_pqbf0B-SjhQwcg4DbkHU-ENXs3oO-hyN6WkeaLc8g"/>
+<div class="absolute top-2 right-2 bg-primary-container text-on-primary text-xs px-2 py-1 rounded font-bold shadow-sm">الأكثر مبيعاً</div>
+<div class="absolute top-2 left-2 bg-surface rounded-full p-1.5 shadow-sm opacity-0 group-hover:opacity-100 transition-opacity">
+<span class="material-symbols-outlined text-secondary text-sm" style="font-variation-settings: 'FILL' 0;">favorite</span>
+</div>
+</div>
+<div class="p-4 flex flex-col flex-grow">
+<div class="flex justify-between items-start mb-2">
+<h3 class="font-title-lg text-title-lg text-on-surface line-clamp-1">قالب لوحة تحكم AdminX</h3>
+<div class="flex items-center text-primary-container text-sm">
+<span class="material-symbols-outlined text-xs mr-1" style="font-variation-settings: 'FILL' 1;">star</span>
+                                4.7
+                            </div>
+</div>
+<p class="font-body-md text-secondary text-sm mb-4 line-clamp-2 flex-grow">قالب لوحة تحكم متكامل مبني باستخدام React &amp; Tailwind.</p>
+<div class="flex justify-between items-center mt-auto pt-4 border-t border-surface-container-high">
+<span class="font-label-md text-primary bg-primary-fixed-dim/20 px-2 py-1 rounded">$49.00</span>
+<button class="text-secondary hover:text-primary transition-colors">
+<span class="material-symbols-outlined">shopping_cart</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Card 3 -->
+<div class="bg-surface-container-lowest rounded-xl shadow-ambient hover:shadow-ambient-hover transition-all duration-300 group flex flex-col h-full border border-transparent hover:border-outline-variant/30">
+<div class="aspect-[4/3] bg-surface-container-low rounded-t-xl overflow-hidden relative p-4 flex items-center justify-center">
+<img alt="Related Product" class="w-full h-full object-cover rounded-lg group-hover:scale-105 transition-transform duration-500" data-alt="A collection of 3D illustrated assets showing abstract geometric shapes in vibrant colors, floating in a clean studio lighting environment." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBWDVN_EDOI6X39OzuZ1SjtHmZoX6C8lQfQQFpdO0aiPrt2fch54k20PMJbJ5QrCFNJUV3_MhnjZlbHauAPcebpWl1HV9JKYPdFr2o7_EDoZPpTh4om7N5oFqJV9NmpbXiPipV5zqBM_TyKjJHIi5_MpzEpRlTJ-RiN3UteyVnImaT_lDZEbg9vdd1kemdqI_WxDPJSTyafC5yJL4fbIz03Q0WwfdvwiuiRLu2zwnkkPblyXCGxwA"/>
+<div class="absolute top-2 left-2 bg-surface rounded-full p-1.5 shadow-sm opacity-0 group-hover:opacity-100 transition-opacity">
+<span class="material-symbols-outlined text-secondary text-sm" style="font-variation-settings: 'FILL' 0;">favorite</span>
+</div>
+</div>
+<div class="p-4 flex flex-col flex-grow">
+<div class="flex justify-between items-start mb-2">
+<h3 class="font-title-lg text-title-lg text-on-surface line-clamp-1">أصول 3D مجردة</h3>
+<div class="flex items-center text-primary-container text-sm">
+<span class="material-symbols-outlined text-xs mr-1" style="font-variation-settings: 'FILL' 1;">star</span>
+                                5.0
+                            </div>
+</div>
+<p class="font-body-md text-secondary text-sm mb-4 line-clamp-2 flex-grow">مجموعة من 50+ شكل ثلاثي الأبعاد عالي الدقة للتصميم الحديث.</p>
+<div class="flex justify-between items-center mt-auto pt-4 border-t border-surface-container-high">
+<span class="font-label-md text-primary bg-primary-fixed-dim/20 px-2 py-1 rounded">$18.00</span>
+<button class="text-secondary hover:text-primary transition-colors">
+<span class="material-symbols-outlined">shopping_cart</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Card 4 -->
+<div class="bg-surface-container-lowest rounded-xl shadow-ambient hover:shadow-ambient-hover transition-all duration-300 group flex flex-col h-full border border-transparent hover:border-outline-variant/30">
+<div class="aspect-[4/3] bg-surface-container-low rounded-t-xl overflow-hidden relative p-4 flex items-center justify-center">
+<img alt="Related Product" class="w-full h-full object-cover rounded-lg group-hover:scale-105 transition-transform duration-500" data-alt="A close up of a typography specimen poster showing clean sans-serif fonts arranged in a precise, corporate modern grid layout." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCUZMbnaILSnEjtorJWYbzrXxKTYX_we8ipIxE5bZoxZ60ydeahJqivRp9aqd5LfdK6IM5vBTYzw7epQ9sY47LDX2H4OO5jq-5ElN-kn4I14LK3c85bYyClBD0xzo6Cx_nB7RuLeRloZIimGTRYUDq9KiXl_MhOSCSmXLP0EiSEpMMagRFEvOQQS-pmkrbXAqRB6nhPA-6f1kOTPl-txleNiqyf-YOUYL6ZA7PZmkkZ4b0soNkZRw"/>
+<div class="absolute top-2 left-2 bg-surface rounded-full p-1.5 shadow-sm opacity-0 group-hover:opacity-100 transition-opacity">
+<span class="material-symbols-outlined text-secondary text-sm" style="font-variation-settings: 'FILL' 0;">favorite</span>
+</div>
+</div>
+<div class="p-4 flex flex-col flex-grow">
+<div class="flex justify-between items-start mb-2">
+<h3 class="font-title-lg text-title-lg text-on-surface line-clamp-1">خط Sans Pro</h3>
+<div class="flex items-center text-primary-container text-sm">
+<span class="material-symbols-outlined text-xs mr-1" style="font-variation-settings: 'FILL' 1;">star</span>
+                                4.6
+                            </div>
+</div>
+<p class="font-body-md text-secondary text-sm mb-4 line-clamp-2 flex-grow">عائلة خطوط احترافية تدعم اللغات المتعددة والأوزان المختلفة.</p>
+<div class="flex justify-between items-center mt-auto pt-4 border-t border-surface-container-high">
+<span class="font-label-md text-primary bg-primary-fixed-dim/20 px-2 py-1 rounded">$35.00</span>
+<button class="text-secondary hover:text-primary transition-colors">
+<span class="material-symbols-outlined">shopping_cart</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</main>
+<!-- Footer -->
+<footer class="bg-surface-container-highest dark:bg-inverse-surface full-width bottom border-t border-outline-variant mt-auto">
+<div class="w-full py-section-gap px-margin-desktop flex flex-col md:flex-row justify-between items-center gap-gutter max-w-container-max mx-auto">
+<div class="font-headline-md text-headline-md text-primary mb-4 md:mb-0">
+                Mawrid
+            </div>
+<div class="flex flex-wrap justify-center gap-6">
+<a class="font-label-sm text-label-sm text-on-secondary-fixed-variant hover:text-primary hover:opacity-80 transition-opacity" href="#">Privacy Policy</a>
+<a class="font-label-sm text-label-sm text-on-secondary-fixed-variant hover:text-primary hover:opacity-80 transition-opacity" href="#">Terms of Service</a>
+<a class="font-label-sm text-label-sm text-on-secondary-fixed-variant hover:text-primary hover:opacity-80 transition-opacity" href="#">Refund Policy</a>
+<a class="font-label-sm text-label-sm text-on-secondary-fixed-variant hover:text-primary hover:opacity-80 transition-opacity" href="#">Contact Us</a>
+</div>
+<div class="font-label-sm text-label-sm text-secondary mt-4 md:mt-0 text-center md:text-left">
+                © 2024 Mawrid Premium Marketplace. All rights reserved.
+            </div>
+</div>
+</footer>
+</body></html>

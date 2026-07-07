@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+
+<html dir="rtl" lang="ar"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Mawrid Premium Marketplace</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Ibm+Plex+Sans:wght@400;500;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@100..900&amp;display=swap" rel="stylesheet"/>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .material-symbols-outlined.fill {
+            font-variation-settings: 'FILL' 1, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+    </style>
+<script id="tailwind-config">tailwind.config = {darkMode: "class", theme: {extend: {colors: {"primary-fixed": "#ffdbcd", "on-primary-container": "#541b00", "outline-variant": "#e3bfb1", "tertiary-fixed": "#e1e0ff", "primary-fixed-dim": "#ffb597", "on-tertiary-fixed-variant": "#2f2ebe", "surface-container-high": "#e7e8e9", "on-error-container": "#93000a", "on-surface": "#191c1d", "surface-container-highest": "#e1e3e4", "inverse-primary": "#ffb597", "surface-variant": "#e1e3e4", background: "#f8f9fa", "on-secondary-container": "#636262", "tertiary-fixed-dim": "#c0c1ff", "on-primary-fixed-variant": "#7e2c00", "on-primary-fixed": "#360f00", error: "#ba1a1a", surface: "#f8f9fa", "secondary-fixed-dim": "#c8c6c5", "secondary-fixed": "#e5e2e1", "on-primary": "#ffffff", "tertiary-container": "#8589ff", primary: "#a53c00", outline: "#8f7065", "on-secondary": "#ffffff", "surface-container": "#edeeef", "surface-container-low": "#f3f4f5", "inverse-on-surface": "#f0f1f2", tertiary: "#494bd6", "secondary-container": "#e2dfde", "on-tertiary-fixed": "#07006c", "primary-container": "#ff6201", "on-tertiary": "#ffffff", "surface-dim": "#d9dadb", secondary: "#5f5e5e", "surface-container-lowest": "#ffffff", "on-surface-variant": "#5a4137", "on-secondary-fixed": "#1c1b1b", "surface-bright": "#f8f9fa", "inverse-surface": "#2e3132", "on-tertiary-container": "#0f00a2", "on-error": "#ffffff", "on-secondary-fixed-variant": "#474746", "surface-tint": "#a53c00", "error-container": "#ffdad6", "on-background": "#191c1d"}, borderRadius: {DEFAULT: "0.25rem", lg: "0.5rem", xl: "0.75rem", full: "9999px"}, spacing: {"margin-desktop": "48px", "card-padding": "24px", unit: "8px", "section-gap": "64px", "margin-mobile": "20px", "container-max": "1440px", gutter: "24px"}, fontFamily: {"headline-md": ["IBM Plex Sans Arabic"], "headline-lg": ["IBM Plex Sans Arabic"], "label-sm": ["IBM Plex Sans Arabic"], "body-lg": ["IBM Plex Sans Arabic"], "display-lg": ["IBM Plex Sans Arabic"], "body-md": ["IBM Plex Sans Arabic"], "label-md": ["IBM Plex Sans Arabic"], "title-lg": ["IBM Plex Sans Arabic"], "headline-lg-mobile": ["IBM Plex Sans Arabic"], headline: ["Ibm Plex Sans"], display: ["Ibm Plex Sans"], body: ["Ibm Plex Sans"], label: ["Ibm Plex Sans"]}, fontSize: {"headline-md": ["24px", {lineHeight: "1.4", fontWeight: "600"}], "headline-lg": ["32px", {lineHeight: "1.3", fontWeight: "600"}], "label-sm": ["12px", {lineHeight: "1.2", fontWeight: "600"}], "body-lg": ["18px", {lineHeight: "1.6", fontWeight: "400"}], "display-lg": ["48px", {lineHeight: "1.2", letterSpacing: "-0.02em", fontWeight: "700"}], "body-md": ["16px", {lineHeight: "1.6", fontWeight: "400"}], "label-md": ["14px", {lineHeight: "1.2", letterSpacing: "0.01em", fontWeight: "500"}], "title-lg": ["20px", {lineHeight: "1.5", fontWeight: "500"}], "headline-lg-mobile": ["24px", {lineHeight: "1.3", fontWeight: "600"}]}}}};</script>
+</head>
+<body class="bg-background text-on-surface font-body-md antialiased selection:bg-primary-container selection:text-on-primary-container">
+<!-- TopNavBar -->
+<nav class="docked full-width top-0 bg-surface shadow-sm z-50 sticky transition-all duration-300">
+<div class="flex justify-between items-center w-full px-margin-mobile md:px-margin-desktop py-4 max-w-container-max mx-auto">
+<!-- Brand -->
+<div class="flex items-center gap-4">
+<a class="flex items-center gap-2 hover:opacity-80 transition-opacity" href="#">
+<img alt="Mawrid" class="h-10 w-auto object-contain" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAew0K90UlSwia-8rkFq6FN77qpljS7GYDjjI3TlxB0Q2uEUtQB3sk_I77zGap7H8sAkRifBEjVAisAwW4QCHT-B3pnvhJGLAJ1gugHg52sYE6FR0WPldZFRe6juqCjAUk7G0adI7v2zw9t5vnoUV2q8xDA5dra-Zoq-Z-yyyoxGWQkBtYSCvUgjYRLlT12IkK10vGaSFk_iXw4F2ZWBRDjdQSOEfMaSAQkJWWpFc5JdJZ12NFtdVb-x87EVckXlu0"/>
+</a>
+</div>
+<!-- Navigation Links (Web) -->
+<div class="hidden md:flex items-center gap-8">
+<a class="font-label-md text-label-md text-primary border-b-2 border-primary font-bold pb-1 transition-colors" href="#">الرئيسية</a>
+<a class="font-label-md text-label-md text-secondary hover:text-primary transition-colors" href="#">البرمجيات</a>
+<a class="font-label-md text-label-md text-secondary hover:text-primary transition-colors" href="#">التصميم</a>
+<a class="font-label-md text-label-md text-secondary hover:text-primary transition-colors" href="#">التسويق</a>
+<a class="font-label-md text-label-md text-secondary hover:text-primary transition-colors" href="#">المقالات</a>
+</div>
+<!-- Search (Web) -->
+<div class="hidden md:flex flex-1 max-w-md mx-8 relative">
+<span class="material-symbols-outlined absolute right-3 top-1/2 -translate-y-1/2 text-on-surface-variant">search</span>
+<input class="w-full bg-surface-container-low border-none rounded-full py-2 pr-10 pl-4 focus:ring-2 focus:ring-primary-container focus:bg-surface transition-all text-sm outline-none" placeholder="ابحث عن منتجات..." type="text"/>
+</div>
+<!-- Actions -->
+<div class="flex items-center gap-4">
+<button class="text-on-surface hover:bg-surface-container-low p-2 rounded-full transition-colors relative group">
+<span class="material-symbols-outlined">shopping_cart</span>
+<span class="absolute top-1 right-1 w-2 h-2 bg-primary-container rounded-full"></span>
+</button>
+<div class="hidden sm:flex items-center gap-3">
+<button class="font-label-md text-label-md text-primary hover:bg-surface-container-low px-4 py-2 rounded-lg transition-colors">تسجيل الدخول</button>
+<button class="font-label-md text-label-md bg-primary-container text-white px-4 py-2 rounded-lg hover:shadow-lg hover:-translate-y-0.5 transition-all">فتح متجر</button>
+</div>
+<!-- Mobile Menu Toggle -->
+<button class="md:hidden text-on-surface p-2 rounded-full hover:bg-surface-container-low transition-colors">
+<span class="material-symbols-outlined">menu</span>
+</button>
+</div>
+</div>
+</nav>
+<!-- Main Content Canvas -->
+<main class="w-full max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop py-8 md:py-12 flex flex-col gap-section-gap">
+<!-- Hero Bento Grid -->
+<section class="grid grid-cols-1 md:grid-cols-12 gap-gutter">
+<!-- Main Hero Card -->
+<div class="md:col-span-8 bg-surface-container-lowest rounded-xl shadow-[0_4px_20px_rgba(0,0,0,0.04)] overflow-hidden relative min-h-[400px] flex items-center p-8 md:p-12 border border-surface-variant">
+<div class="relative z-10 max-w-lg">
+<span class="inline-block bg-primary-fixed text-on-primary-fixed font-label-sm text-label-sm px-3 py-1 rounded-full mb-4">جديد في السوق</span>
+<h1 class="font-display-lg text-display-lg text-on-surface mb-4 leading-tight">مجموعة السماعات اللاسلكية الاحترافية.</h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant mb-8">صوت نقي وتصميم مريح لتجربة استماع استثنائية طوال اليوم.</p>
+<div class="flex items-center gap-4">
+<button class="bg-primary-container text-white font-label-md text-label-md px-6 py-3 rounded-lg hover:shadow-lg hover:-translate-y-0.5 transition-all flex items-center gap-2">
+                            عرض جميع المنتجات
+                            <span class="material-symbols-outlined text-sm">arrow_left</span>
+</button>
+</div>
+</div>
+<!-- Abstract Decorative Image / Shader Space -->
+<div class="absolute left-0 top-0 w-1/2 h-full opacity-20 pointer-events-none mix-blend-multiply flex items-center justify-center">
+<div class="bg-cover bg-center w-full h-full" data-alt="A striking minimalist 3D rendering of sleek, modern wireless headphones floating in a pure white studio environment. Soft, diffused lighting creates gentle ambient shadows. High-end product photography style with subtle vibrant orange accents reflecting the premium marketplace aesthetic." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuBSSB1liBCp07U251YBbkexAOSzaxn3yY7P6p8TleTpcZgJp9LABziEVN7DSd2CBmYrfQlC3l6eGZOZ8oK4QrVSzA5q-Chgu_pnjoT90xmipfuu54lJx5Ey2p16CFszsfHOtynCXx_qQY-pVJyDk7SVipa7wkVOboq8hQjLz_bRirQtHWaXzcrTJRVZ3W5OpKuS2ukowcCosTYu9MBltsA0xDMR_Pkin7HIVz7dEXK8wI08xgYPzQ')"></div>
+</div>
+</div>
+<!-- Side Cards -->
+<div class="md:col-span-4 flex flex-col gap-gutter">
+<!-- Color Options Card -->
+<div class="bg-surface-container-lowest rounded-xl shadow-[0_4px_20px_rgba(0,0,0,0.04)] p-card-padding flex-1 border border-surface-variant">
+<h3 class="font-title-lg text-title-lg mb-4">الألوان الشائعة</h3>
+<div class="flex gap-3 mb-6">
+<button class="w-8 h-8 rounded-full bg-blue-500 shadow-sm border-2 border-white ring-2 ring-transparent focus:ring-primary-container transition-all"></button>
+<button class="w-8 h-8 rounded-full bg-orange-500 shadow-sm border-2 border-white ring-2 ring-primary-container transition-all"></button>
+<button class="w-8 h-8 rounded-full bg-green-500 shadow-sm border-2 border-white ring-2 ring-transparent focus:ring-primary-container transition-all"></button>
+<button class="w-8 h-8 rounded-full bg-red-500 shadow-sm border-2 border-white ring-2 ring-transparent focus:ring-primary-container transition-all"></button>
+<button class="w-8 h-8 rounded-full bg-gray-200 shadow-sm border-2 border-white ring-2 ring-transparent focus:ring-primary-container transition-all"></button>
+</div>
+<div class="flex items-center gap-4 group cursor-pointer">
+<div class="w-16 h-16 rounded-lg overflow-hidden bg-surface-container">
+<img class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300" data-alt="A close-up macro shot of modern white true wireless earbuds resting in their charging case. Pristine studio lighting, high resolution, emphasizing the smooth matte finish and premium build quality of the tech accessory." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAt_-nBSQ5GXlO63KE771t5adR4SOXplr-hn191UpXx_LghKYeDxkckYDg0sIUNeQQ8T_6GQrNESMy3EeI-OdSZyLSGt3e92fmTrnpq1liH-0opRQ5KP_pfYu1Q6h-BzvXAxCDeunzbDoe3p0YJdMMF7Eu67-5mc9U10WtSJlnULlSpGd3S6vShQ6WgkfWHrNJxff2kz0_OJBXwOhA1IItnml3JXfhG1NnWloWpEFOyEMoudl8tow"/>
+</div>
+<div>
+<p class="font-label-md text-label-md font-bold">إصدار X-Bud الجديد</p>
+<p class="font-label-sm text-label-sm text-secondary">تصميم مدمج</p>
+</div>
+<span class="material-symbols-outlined mr-auto text-secondary group-hover:text-primary-container transition-colors">north_west</span>
+</div>
+</div>
+<!-- Feature Image Card -->
+<div class="bg-surface-container-lowest rounded-xl shadow-[0_4px_20px_rgba(0,0,0,0.04)] p-0 flex-1 overflow-hidden relative group border border-surface-variant">
+<img class="w-full h-full object-cover min-h-[200px] group-hover:scale-105 transition-transform duration-500" data-alt="A stylish portrait of a woman wearing a modern virtual reality headset, looking upwards. Shot in profile against a clean, light grey background. Futuristic yet soft and premium aesthetic, high fashion tech photography style." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAxerR6-N6R1paxLLjehhAgmXqT1lDtNDk3plDHzsbBxMBQNjW6eDZR137GWXJS6PCJmJkSHc49MAwSk8MViI4-8H8IQPTEYN4GwgiTXZLeV8Xrdre7uC5CEnSW2ejsCxEiJroMZ80Veg_u2ciB6qpz5WEIJEdJnvfODavOO_DU-Ls3rcHbQvp_Lq49U5FcUhVY1902z3AvTq4vD_VYwH817SPSbVn8AULYmuiF4VNLvs60a5iocg"/>
+<div class="absolute bottom-0 left-0 right-0 p-4 bg-gradient-to-t from-black/60 to-transparent text-white">
+<p class="font-title-lg text-title-lg">سماعات الواقع الافتراضي</p>
+<p class="font-label-sm text-label-sm opacity-80">تجربة غامرة</p>
+</div>
+<button class="absolute top-4 left-4 w-8 h-8 bg-white/90 rounded-full flex items-center justify-center text-on-surface hover:bg-primary-container hover:text-white transition-colors">
+<span class="material-symbols-outlined text-sm">north_west</span>
+</button>
+</div>
+</div>
+</section>
+<!-- Categories / Filters Pill Row -->
+<section class="flex gap-3 overflow-x-auto pb-4 scrollbar-hide">
+<button class="whitespace-nowrap px-4 py-2 rounded-full bg-primary-container text-white font-label-md text-label-md shadow-sm transition-transform hover:-translate-y-0.5">الكل</button>
+<button class="whitespace-nowrap px-4 py-2 rounded-full bg-surface-container-low text-on-surface font-label-md text-label-md hover:bg-surface-container-high transition-colors">عروض</button>
+<button class="whitespace-nowrap px-4 py-2 rounded-full bg-surface-container-low text-on-surface font-label-md text-label-md hover:bg-surface-container-high transition-colors">برمجيات</button>
+<button class="whitespace-nowrap px-4 py-2 rounded-full bg-surface-container-low text-on-surface font-label-md text-label-md hover:bg-surface-container-high transition-colors">تصميم</button>
+<button class="whitespace-nowrap px-4 py-2 rounded-full bg-surface-container-low text-on-surface font-label-md text-label-md hover:bg-surface-container-high transition-colors">صحة ورياضة</button>
+<button class="whitespace-nowrap px-4 py-2 rounded-full bg-surface-container-low text-on-surface font-label-md text-label-md hover:bg-surface-container-high transition-colors">فنون</button>
+<button class="whitespace-nowrap px-4 py-2 rounded-full bg-surface-container-low text-on-surface font-label-md text-label-md hover:bg-surface-container-high transition-colors">منزل</button>
+<button class="whitespace-nowrap px-4 py-2 rounded-full bg-surface-container-low text-on-surface font-label-md text-label-md hover:bg-surface-container-high transition-colors">موسيقى</button>
+</section>
+<!-- Trending Products Grid -->
+<section>
+<div class="flex justify-between items-center mb-8">
+<h2 class="font-headline-lg text-headline-lg text-on-surface">منتجات رائجة</h2>
+<a class="font-label-md text-label-md text-primary hover:underline" href="#">عرض الكل</a>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-gutter">
+<!-- Product Card 1 -->
+<div class="bg-surface-container-lowest rounded-xl shadow-[0_4px_20px_rgba(0,0,0,0.04)] hover:shadow-[0_12px_32px_rgba(0,0,0,0.08)] hover:-translate-y-1 transition-all duration-300 p-4 border border-surface-variant flex flex-col group">
+<div class="relative rounded-lg overflow-hidden bg-surface-container-low mb-4 aspect-square flex items-center justify-center p-6">
+<button class="absolute top-3 left-3 text-secondary hover:text-primary-container z-10 transition-colors bg-white/50 rounded-full p-1.5 backdrop-blur-sm">
+<span class="material-symbols-outlined text-sm">favorite</span>
+</button>
+<img class="w-full h-full object-contain mix-blend-multiply group-hover:scale-105 transition-transform duration-500" data-alt="A sleek, modern smart watch with a white silicone band, displayed against a pure white studio background. Soft studio lighting highlights the minimalist design and digital display. Premium e-commerce product photography style." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBXrvKmR1dSXcu8Ax3Hfcsks0t4wfM0j5CgHQ0xYdUdqyk3F8fJ3_RsjRiTYu1CEQ57foStABAMcSkKCWPs3cXRBgG0O67eVFj_AHrGxZvTKgWFMjcA2WgqiaOsNTxd6N4ShdqXimTfqfNOGa32nXTmEqTR5aonErrkJg9GsEyauu2yWhse9LXHKLhryQRL908d2PoOTZQg4_KR8ME95w8DgxAqsc39LHW9E8bdz3u7E-TnTJy4UQ"/>
+</div>
+<div class="text-center mt-auto">
+<span class="inline-block bg-primary-fixed text-on-primary-fixed font-label-sm text-[10px] px-2 py-0.5 rounded-full mb-2">أفضل بائع</span>
+<h4 class="font-label-md text-label-md text-on-surface mb-2 truncate">ساعة ذكية WH22-6 للياقة</h4>
+<p class="font-title-lg text-title-lg text-primary-container font-semibold">$454.00</p>
+</div>
+</div>
+<!-- Product Card 2 -->
+<div class="bg-surface-container-lowest rounded-xl shadow-[0_4px_20px_rgba(0,0,0,0.04)] hover:shadow-[0_12px_32px_rgba(0,0,0,0.08)] hover:-translate-y-1 transition-all duration-300 p-4 border border-surface-variant flex flex-col group">
+<div class="relative rounded-lg overflow-hidden bg-surface-container-low mb-4 aspect-square flex items-center justify-center p-6">
+<button class="absolute top-3 left-3 text-secondary hover:text-primary-container z-10 transition-colors bg-white/50 rounded-full p-1.5 backdrop-blur-sm">
+<span class="material-symbols-outlined text-sm">favorite</span>
+</button>
+<img class="w-full h-full object-contain mix-blend-multiply group-hover:scale-105 transition-transform duration-500" data-alt="Two premium tennis rackets crossed symmetrically over a floating vibrant yellow tennis ball. Clean, minimalist light grey background. High resolution, sharp focus, professional sports equipment product photography." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAsI2tUKteVHjY_Mlo9z-0WoFoObbeMR7A9ZI0lVhHrf_CJ0LqMe-jzOrdGxEg0U9q_f839GoX1FW0hPW6ksF0L5xeBF6Idg8-VegGKIfdSV4AOL4ZnTq2E2PLqIWg1E990VUUEpGY7qjk3tQMX5EBCeFub5yWeqUYQWU9tLoLvKfdvIqQohX-uCXjpzIiHfSqTLeZmAcfJczd9sbLszSmyijDHysbFRWvuQzvSoCqyVHErQs57Ag"/>
+</div>
+<div class="text-center mt-auto">
+<h4 class="font-label-md text-label-md text-on-surface mb-2 truncate">مضارب تنس للمبتدئين</h4>
+<p class="font-title-lg text-title-lg text-primary-container font-semibold">$30.99</p>
+</div>
+</div>
+<!-- Product Card 3 (Featured/Highlighted) -->
+<div class="bg-primary-container rounded-xl shadow-[0_4px_20px_rgba(0,0,0,0.04)] hover:shadow-[0_12px_32px_rgba(0,0,0,0.08)] hover:-translate-y-1 transition-all duration-300 p-4 border border-transparent flex flex-col group relative overflow-hidden text-white">
+<div class="relative rounded-lg overflow-hidden mb-4 aspect-square flex items-center justify-center z-10">
+<button class="absolute top-3 left-3 text-white/80 hover:text-white z-10 transition-colors bg-black/20 rounded-full p-1.5 backdrop-blur-sm">
+<span class="material-symbols-outlined text-sm">favorite</span>
+</button>
+<div class="absolute top-3 right-3 bg-white/20 backdrop-blur-md rounded-full px-2 py-1 flex items-center gap-1 z-10">
+<span class="material-symbols-outlined text-[12px] text-yellow-300 fill">star</span>
+<span class="font-label-sm text-[10px]">4.7/5</span>
+</div>
+<img class="w-full h-full object-cover rounded-lg group-hover:scale-105 transition-transform duration-500" data-alt="A male model wearing a crisp white premium training hoodie, posing dynamically in a studio with vibrant purple and blue gel lighting. Energetic, modern athletic apparel photography, high contrast and striking colors." src="https://lh3.googleusercontent.com/aida-public/AB6AXuA460V_umIuVJMN8Aic4mbtfPKQBTIsg3nXI4Qti7PrxEe4avPrFZtqX2JJ4Wi0meXA42A4gFbkXeqFN5WRM8LmqItn_IBVdrynsle7qx9sMd13vfypd0iHWmcRCN4fOV-KgBgSU_mIsVXrl0TL0Sgd5HbvBumYHC5E7r7xR7MsPrn14HVZeEI1O2MsWZ95bhtq6mWIjmx9XCdHUfd7PiPJLo1pfsIfkQiDbCcc_NJm4uafp0jC6Q"/>
+</div>
+<div class="text-center mt-auto z-10">
+<h4 class="font-label-md text-label-md mb-2 truncate">هودي تدريب أبيض حراري</h4>
+<p class="font-title-lg text-title-lg font-semibold">$154.99</p>
+</div>
+<!-- Decorative blur -->
+<div class="absolute -bottom-10 -right-10 w-32 h-32 bg-white/20 rounded-full blur-2xl pointer-events-none"></div>
+</div>
+<!-- Product Card 4 -->
+<div class="bg-surface-container-lowest rounded-xl shadow-[0_4px_20px_rgba(0,0,0,0.04)] hover:shadow-[0_12px_32px_rgba(0,0,0,0.08)] hover:-translate-y-1 transition-all duration-300 p-4 border border-surface-variant flex flex-col group">
+<div class="relative rounded-lg overflow-hidden bg-surface-container-low mb-4 aspect-square flex items-center justify-center p-6">
+<button class="absolute top-3 left-3 text-secondary hover:text-primary-container z-10 transition-colors bg-white/50 rounded-full p-1.5 backdrop-blur-sm">
+<span class="material-symbols-outlined text-sm">favorite</span>
+</button>
+<img class="w-full h-full object-contain mix-blend-multiply group-hover:scale-105 transition-transform duration-500" data-alt="A pair of clean, minimalist white and light blue running shoes floating slightly against a soft white background. Detailed texture on the mesh and sleek design. Professional athletic footwear product shot." src="https://lh3.googleusercontent.com/aida-public/AB6AXuB0fONL3jafeS8ZuS9GXHbfbz8lVbUjh0az33sNx-N2KQMU_MqEXu05dSI6EyXMTkzGodgVI2oz0iW1x-uv3b9is7Zf6cvIEJ_oDsrTTBaygTvubVWf6sZrBo7RW_WWK0NfkNBDE1VNlOAwzJ0q_tesTyvwBbj-xWY70FSnwOxHMKrlC-fAq6iSskRkTpSxTsA1IuKjeJRg6Nz4zbSz_JX8RvxV9LE82nGdPPlQL6SGBwH7oWkvoQ"/>
+</div>
+<div class="text-center mt-auto">
+<span class="inline-block bg-tertiary-fixed text-on-tertiary-fixed font-label-sm text-[10px] px-2 py-0.5 rounded-full mb-2">مميز</span>
+<h4 class="font-label-md text-label-md text-on-surface mb-2 truncate">حذاء رياضي خفيف الوزن</h4>
+<p class="font-title-lg text-title-lg text-primary-container font-semibold">$210.00</p>
+</div>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="w-full py-section-gap px-margin-mobile md:px-margin-desktop flex flex-col md:flex-row justify-between items-center gap-gutter bg-surface-container-highest border-t border-outline-variant mt-12">
+<div class="flex items-center gap-4 mb-4 md:mb-0">
+<span class="font-headline-md text-headline-md text-primary">Mawrid</span>
+</div>
+<p class="font-label-sm text-label-sm text-on-secondary-fixed-variant text-center md:text-right">
+            © 2024 Mawrid Premium Marketplace. All rights reserved.
+        </p>
+<div class="flex gap-6">
+<a class="font-label-sm text-label-sm text-on-secondary-fixed-variant hover:text-primary transition-colors" href="#">سياسة الخصوصية</a>
+<a class="font-label-sm text-label-sm text-on-secondary-fixed-variant hover:text-primary transition-colors" href="#">شروط الخدمة</a>
+<a class="font-label-sm text-label-sm text-on-secondary-fixed-variant hover:text-primary transition-colors" href="#">سياسة الاسترجاع</a>
+<a class="font-label-sm text-label-sm text-on-secondary-fixed-variant hover:text-primary transition-colors" href="#">اتصل بنا</a>
+</div>
+</footer>
+</body></html>
